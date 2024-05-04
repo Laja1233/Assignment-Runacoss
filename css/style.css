@@ -104,6 +104,51 @@ header {
     line-height: 1.6;
 }
 
+.register-form {
+    padding: 80px 0;
+}
+
+.register-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.register-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.register-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-form button:hover {
+    background-color: #ff8533;
+}
+
+
 footer {
     background-color: #333;
     color: #fff;
