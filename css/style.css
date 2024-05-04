@@ -89,13 +89,13 @@ header {
 .about-us {
     padding: 80px 0;
     text-align: center;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 .about-us h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: white;
+    color: black;
 }
 
 .about-us p {
@@ -106,6 +106,7 @@ header {
 
 .register-form {
     padding: 80px 0;
+    background-color: whitesmoke;
 }
 
 .register-form h2 {
