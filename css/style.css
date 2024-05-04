@@ -23,7 +23,7 @@ header {
 
 .logo-runacoss img {
     max-width: 50px;
-    margin-left: 97px;
+    margin-left: 120px;
 }
 
 .navbar {
@@ -89,15 +89,24 @@ header {
 .about-us {
     padding: 80px 0;
     text-align: center;
+    background-color: black;
 }
 
 .about-us h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: white;
 }
 
 .about-us p {
     font-size: 1.1rem;
-    color: #666;
+    color: #7e7e7e;
     line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
