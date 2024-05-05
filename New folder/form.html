@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Redeemer’s University Association of Computer Science Students</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo-runacoss">
+                    <img src="images/logo_runacoss.jpeg" alt="Runacoss">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">New Here?</a></li>
+                    <li><a href="timetable.html">Time Table</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+ 
+    <section class="cover">
+        <div class="cover-text">
+            <h1>Become part of our community</h1>
+            <p>Stay informed about our upcoming events</p>
+        </div>
+    </section>
+    <section class="register-form">
+        <div class="container">
+            <h2>Please Fill the Form</h2>
+            <form action="timetable.html" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="name">Mobile Number:</label>
+                <input type="number" id="phoneno" name="phone number" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="name">Matirc Number:</label>
+                <input type="text" id="matricno" name="matricno" required>
+                
+                <label>
+                    <input type="checkbox" id="terms-checkbox" name="terms-checkbox">
+                    I agree to the Terms of Use
+                </label>
+
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Runacoss. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
